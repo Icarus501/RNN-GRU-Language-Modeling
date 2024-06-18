@@ -113,8 +113,6 @@ class Runner(object):
         #     encoded_d = make_onehot(d[t], self.model.vocab_size)
         #     loss -= np.matmul(encoded_d, np.log(y[t]))
 
-        mean_loss = 0.
-
         ##########################
         total_loss = 0
         for t in range(len(X)):
